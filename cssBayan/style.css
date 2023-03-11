@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.ic-accordion {
+  width: 50%;
+  background-color: #fff;
+}
+
+.ic-accordion__title-head {
+  font-size: 3em;
+  font-weight: 700;
+  background-color: grey;
+  margin: 0 auto;
+}
