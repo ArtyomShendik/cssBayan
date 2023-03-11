@@ -118,3 +118,45 @@ label {
   color: white;
   background-color: black;
 }
+
+@media screen and (max-width: 1000px) {
+  .ic-accordion__title-head {
+    font-size: 28px;
+  }
+
+  .ic-accordion__trigger-head {
+    font-size: 20px;
+  }
+
+  .ic-accordion__trigger {
+    padding-right: 20px;
+  }
+
+  .ic-accordion__trigger-img {
+    width: 3.5%;
+    height: 3.5%;
+  }
+
+  .ic-accordion {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ic-accordion__title-head {
+    font-size: 22px;
+  }
+
+  .ic-accordion__trigger-head {
+    font-size: 18px;
+  }
+
+  .ic-accordion {
+    width: 80%;
+  }
+
+  .ic-accordion__trigger-img {
+    width: 5%;
+    height: 5%;
+  }
+}
